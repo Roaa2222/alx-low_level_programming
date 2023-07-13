@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entry
+ * main - Entry point
  *
  * Description: A C program that prints with printf function.
  *
