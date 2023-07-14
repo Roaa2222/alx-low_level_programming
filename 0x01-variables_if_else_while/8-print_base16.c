@@ -21,7 +21,7 @@ while (digit <= 102) /*102; decimal rep of f*/
 		digit += 39;
 	digit++;
 }
-putchar('\n);
+putchar('\n');
 
 return (0);
 }
