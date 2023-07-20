@@ -15,7 +15,7 @@ if (n <= 0)
 	_putchar('\n');
 else
 {
-	for (postn = 1; postn <= n; post++)
+	for (postn = 1; postn <= n; postn++)
 	{
 		for (space = 1; space <= postn; space++)
 			_putchar(' ');
