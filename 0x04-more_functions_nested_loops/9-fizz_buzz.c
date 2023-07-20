@@ -24,10 +24,12 @@ for (num = 1; <= 100; num++)
 		printf("FizzBuzz");
 	else
 		printf("%d", num);
+
 	if (num != 100)
 		printf(" ");
 	else
 		printf("\n");
 }
+
 return (0);
 }
