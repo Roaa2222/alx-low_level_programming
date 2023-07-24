@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * char *_strcpy - a function that copies the string pointed  to by src
+ * char *_strcpy - a function that copies the string pointed to by src
  * @dest: copy to
  * @src: copy from
  * Return: string
@@ -16,7 +16,7 @@ while (*(src + l) != '\0')
 {
 	l++;
 }
-for ( ; x < l ; x++)
+for (x=0; x < l ; x++)
 {
 	dest[x] = src[x];
 }
