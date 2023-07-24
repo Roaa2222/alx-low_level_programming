@@ -19,7 +19,7 @@ for (i = 0; i < (n - 1); i++)
 }
 	if (i == (n - 1))
 	{
-		printf("%d", a[n - i]);
+		printf("%d", a[n - 1]);
 	}
 printf("\n");
 }
