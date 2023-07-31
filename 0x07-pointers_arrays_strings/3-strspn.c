@@ -20,10 +20,10 @@ while (*s)
 			n++;
 			break;
 		}
-		else if (accept[r + 1} == '\0')
+		else if (accept[r + 1] == '\0')
 			return (n);
 	}
-s++;
+	s++;
 }
 return (n);
 }
