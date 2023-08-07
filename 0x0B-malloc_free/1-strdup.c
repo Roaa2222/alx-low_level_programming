@@ -1,11 +1,10 @@
 #include"main.h"
-#include<stdio.h>
 
 /**
  * *_strdup - return a pointer to a newly allocated space in memory
  * which contains a copy of the string given as a parameter
  * @str: string
- * Retrun: 0
+ * Return: 0
 */
 
 char *_strdup(char *str)
