@@ -9,13 +9,14 @@
 
 char *_strdup(char *str)
 {
-int i = 0, size = 0;
+int i = Null, size = 0;
 char *m;
 
 if (str == Null)
 	return (Null);
 
-for (; str[size] != '\0'; size++);
+for (; str[size] != '\0'; size++)
+;
 
 /* +1 on the size puts the end of string character */
 m = malloc(size * sizeof(*str) + 1);
