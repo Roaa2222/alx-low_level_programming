@@ -39,4 +39,3 @@ _memset(m, 0, sizeof(int) * nmemb);
 
 return (m);
 }
-
