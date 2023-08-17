@@ -20,7 +20,7 @@ if (!n)
 }
 va_start(ap, n);
 while (i--)
-	printf("%s%s", (str = va_arg(ap, char *)) ? str : "nill",
+	printf("%s%s", (str = va_arg(ap, char *)) ? str : "nil",
 		i ? (separator ? separator : "") : "\n");
 va_end(ap);
 }
