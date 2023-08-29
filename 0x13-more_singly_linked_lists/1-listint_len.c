@@ -13,7 +13,7 @@ size_t i = 0;
 
 while (h)
 {
-	h = h->node;
+	h = h->next;
 	i++;
 }
 return (i);
